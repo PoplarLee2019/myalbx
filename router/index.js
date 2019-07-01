@@ -16,6 +16,7 @@ const router = express.Router()
 router.get('/',pagesController.getIndexPage)
       .get('/list',pagesController.getListPage)
       .get('/detail',pagesController.getDetailPage)
+      .get('admin/password',pagesController.getDetailPage)
 
 // 后台管理页面，统一添加admin做为前缀
       .get('/admin',pagesController.getAdminPage)

@@ -12,6 +12,9 @@ module.exports.getListPage = (req,res)=>{
 module.exports.getDetailPage = (req,res)=>{
     res.render('detail.ejs')
 }
+module.exports.getPasswordPage = (req,res)=> {
+    res.render('password.ejs')
+}
 
 // 读取后台页面 
 module.exports.getAdminPage = (req,res)=>{
